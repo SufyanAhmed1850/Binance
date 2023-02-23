@@ -28,7 +28,7 @@ p{
 }
 .navbar{
     padding: 1rem;
-    width: 100vw;
+    width: 100%;
 }
 .nav_logo{
     display: flex;
@@ -231,7 +231,8 @@ header .redeem a{
     justify-content: center;
     gap: 2rem;
     align-items: flex-start;
-    width: 80%;
+    width: 85%;
+    max-width: 1225px;
 }
 .volume_container>*{
     flex: 1;
@@ -262,6 +263,7 @@ header .redeem a{
 }
 .crypto{
     width: 85%;
+    max-width: 1225px;
 }
 .crypto_head{
     display: flex;
@@ -317,6 +319,7 @@ header .redeem a{
 }
 .start{
     width: 85%;
+    max-width: 1225px;
 }
 .start h1{
     font-size: 1.75rem;
@@ -336,6 +339,7 @@ header .redeem a{
 }
 .free_trade{
     width: 85%;
+    max-width: 1225px;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -363,6 +367,7 @@ header .redeem a{
 }
 .portfolio{
     width: 85%;
+    max-width: 1225px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -392,6 +397,7 @@ header .redeem a{
 }
 .token_container{
     width: 85%;
+    max-width: 1225px;
     display: flex;
     flex-direction: column;
     gap: 4rem;
