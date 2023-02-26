@@ -269,6 +269,7 @@ header .redeem a{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 5rem 0;
 }
 .crypto_head p{
     color: var(--clr-400);
@@ -325,7 +326,7 @@ header .redeem a{
     font-size: 1.75rem;
     margin-bottom: 2.5rem;
 }
-.start a, .free_trade .right a, .portfolio .left a{
+.start a, .free_trade .right a, .portfolio .left a, .endless_anchor a, .secure_anchor a{
     color: var(--clr-100);
     background-color: var(--clr-yellow-100-);
     padding: .9rem 3.75rem;
@@ -437,10 +438,96 @@ header .redeem a{
 .token a{
     color: var(--clr-500);
 }
-
-
-
-
+.endless_section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.endless_container{
+    width: 85%;
+    max-width: 1225px;
+}
+.endless_container>h1{
+    margin: 4rem 0;
+}
+.endless_wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+.endless_wrapper>div{
+    flex: 1;
+    min-width: 240px;
+}
+.endless_wrapper img{
+    width: 90%;
+}
+.endless{
+    background-color: #fafafa;
+    height: 570px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2.5rem 1.5rem;
+    border-radius: .5rem;
+    cursor: pointer;
+}
+.endless_body h2{
+    margin-bottom: 1rem;
+}
+.endless:hover{
+    box-shadow: 0px 0px 10px 4px rgba(0,0,0,0.1);
+    -webkit-box-shadow: 0px 0px 10px 4px rgba(0,0,0,0.1);
+    -moz-box-shadow: 0px 0px 10px 4px rgba(0,0,0,0.1);
+}
+.endless_anchor{
+    margin: 5rem 0;
+}
+.secure_section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.secure{
+    width: 85%;
+    max-width: 1225px;
+    margin: 5rem 0;
+}
+.secure_head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: .5rem;
+}
+.secure>.light{
+    font-size: 1.15rem;
+    margin-bottom: 3rem;
+}
+.secure_container{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    justify-content: space-between;
+    margin: 3rem 0;
+    align-items: center;
+}
+.secure_container>div{
+    flex: 1;
+}
+.secure_container .right img{
+    width: 100%;
+}
+.secure_item{
+    display: flex;
+    gap: 1.75rem;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+.secure_item h2{
+    font-size: 1.5rem;
+    margin: 0 0 .35rem 0;
+}
 
 
 
@@ -485,6 +572,13 @@ header .redeem a{
     .ape_left h1{
         width: 385px;
         align-items: center;
+    }
+    .secure_container{
+        flex-direction: column-reverse;
+    }
+    .secure_container .right{
+        width: 70%;
+        min-width: 250px;
     }
 }
 @media only screen and (max-width: 880px){
